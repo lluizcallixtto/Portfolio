@@ -1,3 +1,19 @@
 # Portfolio
 
-Minha primeira página web feita com **HTML e CSS**
+## Descrição do Projeto
+
+<p align="justify">
+ O desafio consiste em criar uma página web para o seu portfólio e currículo. Utilizando HTML e CSS.
+</p>
+
+## Techs
+
+* HTML
+* CSS
+
+## Pré-requisitos
+
+ Você só precisará de um navegador para poder visualizar a página.
+
+## GitHub Page
+
