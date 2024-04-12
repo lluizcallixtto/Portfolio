@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,7 +12,12 @@
     <title>Portfólio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
@@ -23,13 +28,22 @@
                tecnológicas. Vamos conversar?
             </p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/lluizcalixtto/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/lluizcallixtto">GitHub</a>
-
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/lluizcallixtto">
+                    <img class="apresentacao__links__navegacao__logo" src="./img/Logo Github.png" alt="Logo Github">
+                    GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/luiz-eduardo-americo-calixto-62a027154/">
+                    <img class="apresentacao__links__navegacao__logo" src="./img/Logo linkedin.png" alt="Logo LinkedIn">
+                    LinkedIn</a>
+                <a class="apresentacao__links__navegacao" href="https://twitch.tv/lluizcallixtto_dudu">
+                    <img class="apresentacao__links__navegacao__logo" src="./img/Logo Twitch.png" alt="Logo Twitch">
+                    Twitch</a>
             </div>
         </section>
-        <img src="./img/Imagem.png" alt="Foto de perfil">
+        <img class="apresentacao__imagem" src="./img/Imagem.png" alt="Foto de perfil">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Luiz Eduardo.</p>
+    </footer>
 </body>
 </html>
